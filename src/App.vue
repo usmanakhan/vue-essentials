@@ -1,17 +1,18 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app" class="container mt-5">
+    <h1>My Shop</h1>
+    <p class="animate__animated animate__fadeInRight">take a look at our offerings bellow</p>
+    <font-awesome-icon icon="shopping-cart"></font-awesome-icon>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import {FontAwesomeIcon} from '@fortawesome/vue-fontawesome'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    FontAwesomeIcon
   }
 }
 </script>
